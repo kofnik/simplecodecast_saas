@@ -6,7 +6,7 @@ gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
 
-# Use postgresql as teh database for production
+# Use postgresql as the database for production
 group :production do
     gem 'pg'
     gem 'rails_12factor'
@@ -24,6 +24,8 @@ gem 'uglifier', '1.3.0'
 gem 'coffee-rails', '4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+
+gem "table_print"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
