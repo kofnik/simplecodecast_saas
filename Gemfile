@@ -37,7 +37,7 @@ gem 'sdoc', '0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 # Use tp for printing the data querry results in table form
-gem "table_print"
+gem 'table_print'
 # Use devise for user auth
 gem 'devise', '3.4.1'
 #Use stripe for handling payments
