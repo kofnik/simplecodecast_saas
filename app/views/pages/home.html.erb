@@ -1,3 +1,6 @@
+<%= link_to "Create your profile!", new_user_profile_path(current_user) if current_user %> <!--This 'rails helper'comes from
+  the rake routes + _path + user_id which is required. current_user is a hash parameter  -->
+
 <div class="jumbotron text-center">
     <h1>Welcome to Dev Match</h1>
     <h3>A membership site where enterpreneurs can meet developers.</h3>
